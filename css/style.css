@@ -1,0 +1,187 @@
+html,
+body,
+header{
+  height: 100%;
+  width: 100%;
+}
+
+.home {
+  background-color:#F5F5F5;
+  margin:0px;
+  padding:0px;
+  font-family: PT Sans;
+}
+
+.head {
+  display: flex;
+  flex-wrap:row wrap;
+  margin:auto;
+  text-align:center;
+  color:#368142;
+  font-family: Staatliches;
+  background-image: url(photositeweb/banner2.png);
+}
+
+h2 { 
+color: #368142; 
+font-weight: strong; 
+text-decoration: bold;   
+margin:20px;
+font-family: Staatliches;
+}
+
+p {
+  font-family: Staatliches;
+}
+
+.search-field { 
+margin:20px;
+}
+
+h3 { 
+color: #368142;; 
+font-weight: strong; 
+text-decoration: bold;   
+margin:auto;
+font-family: Staatliches;
+
+} 
+
+.article { 
+color: black; 
+font-weight: strong; 
+text-decoration: bold;   
+margin:auto;
+font-family: PT Sans;
+} 
+
+form { 
+color: Orange; 
+font-weight: strong; 
+text-decoration: bold;  
+background-color:#F5F5F5; 
+margin:auto; 
+} 
+
+
+.collapse {
+ padding:20px;
+ margin:50px;
+ list-style-type:none;
+ color:#F5F5F5;
+ font-family: Staatliches;
+
+
+ }
+
+.menu-item {
+ margin-left:150px;
+ float:left;
+ /*pour IE*/
+ }
+.collapse .menu-item a {
+ display:block;
+ float:left;   
+ width:100px;
+ background-color:#F5F5F5;
+ color:#368142;
+ text-decoration:none;
+ text-align:center;
+ padding:10px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#368142;;
+ }
+
+.collapse .menu-item a:hover {
+ background-color:white;
+ border-color:black;
+ color:black;
+ }
+.search-field {
+ background-color:white;
+ border-color:orange 10pm;
+ color:black;
+ }
+.search-submit {
+ background-color:white;
+ border-color:black 10pm;
+ color:black;
+ }
+
+.cont {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin:auto;
+  text-align:center;
+  margin-top: -100px;
+}
+
+.image {
+  margin:10px;
+} 
+
+
+.cont div:nth-child(1) {
+  background-color: #E9E1D0;
+}
+
+.cont div:nth-child(2) {
+    background-color: #E9E1D0;
+
+}
+
+.cont div:nth-child(3) {
+    background-color: #E9E1D0;
+
+}
+
+
+
+
+.copy div {
+  float:left;
+}
+
+
+.logostx {
+z-index: -3;
+}
+
+.my-menu {
+	z-index: 1000;
+	margin-top: -100px; 
+}
+
+
+#menu-navigation-haute {
+	list-style: none;
+}
+
+
+.my-flex-box {
+	 display:flex;
+	 justify-content: space-around;
+	 width: 100%;
+   margin-top: 50px;
+}
+
+.cont1,
+.cont2,
+.cont3,
+.cont4,
+.cont5 {
+  display: flex;
+  flex-wrap:row wrap;
+  margin-top: 10px;
+  text-align:center;
+  background-color: #E9E1D0;
+}
+
+.image1 {
+  display:flex;
+  flex-direction: column;
+  margin-left:auto;
+  margin-right:auto;
+
+}
